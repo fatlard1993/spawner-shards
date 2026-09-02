@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "justfatlard.spawner_shards.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "BaseSpawnerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

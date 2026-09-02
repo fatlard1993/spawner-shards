@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "spawner-shards-justfatlard",
+  "version": "${version}",
+  "name": "Spawner Shards",
+  "description": "Spawners break into shards, nine shards build one back, and a mob head sets what it spawns",
+  "authors": [
+    "justfatlard"
+  ],
+  "contact": {
+    "sources": "https://github.com/fatlard1993/spawner-shards"
+  },
+  "license": "MIT",
+  "icon": "assets/spawner-shards-justfatlard/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "justfatlard.spawner_shards.Main"
+    ]
+  },
+  "mixins": [
+    "spawner-shards-justfatlard.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loaderVersion}",
+    "fabric-api": "${fabricApiVersion}",
+    "minecraft": "${minecraftDependency}",
+    "java": ">=25",
+    "pandorical": "*"
+  }
+}
