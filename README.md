@@ -21,13 +21,9 @@ Spawner Shards registers its item model through Pandorical's content sync, and t
 
 **The Pandorical mod must be installed client-side** to see the shards rendered with their texture. Without it the mod still works, but a connecting client sees an untextured item.
 
-## Installation
+## Development
 
-Install server-side alongside its declared dependencies (see `fabric.mod.json`); connecting clients need only Pandorical. Version targets live in `gradle.properties` (Minecraft, loader, Fabric API) and `fabric.mod.json` (Java).
-
-## Art
-
-`generate_icon.py` and `generate_textures.py` cut the mod's icon and item sprite out of the vanilla jar. Both are deterministic; re-run either after a Minecraft version bump.
+Installing and the art pipeline are in [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ## License
 

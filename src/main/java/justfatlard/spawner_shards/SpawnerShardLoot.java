@@ -26,8 +26,7 @@ import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.ExplosionCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.MatchTool;
-import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
-import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.minecraft.world.level.storage.loot.providers.number.ints.ContextIntProviders;
 
 /**
  * Gives the spawner something to drop.
@@ -84,9 +83,9 @@ public final class SpawnerShardLoot {
 
 	private static LootPool.Builder shards(int min, int max) {
 		return LootPool.lootPool()
-			.setRolls(ConstantValue.exactly(1))
+			.setRolls(ContextIntProviders.exactly(1))
 			.add(LootItem.lootTableItem(Main.SPAWNER_SHARDS))
-			.apply(SetItemCountFunction.setCount(UniformGenerator.between(min, max)));
+			.apply(SetItemCountFunction.setCount(ContextIntProviders.between(min, max)));
 	}
 
 	private static LootItemCondition.Builder hasSilkTouch(HolderLookup.Provider registries) {
