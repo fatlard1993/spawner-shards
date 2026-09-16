@@ -17,7 +17,7 @@ Nine Spawner Shards, filling a crafting table, make one Spawner.
 
 ## Pandorical
 
-Spawner Shards registers its item model through Pandorical's content sync, and tells Pandorical clients that a right-click on a spawner may be the server's to answer.
+Spawner Shards registers its item model through Pandorical's content sync, and tells Pandorical clients that a right-click on a spawner may be the server's to answer. **Pandorical is required on the server.**
 
 **The Pandorical mod must be installed client-side** to see the shards rendered with their texture. Without it the mod still works, but a connecting client sees an untextured item.
 
