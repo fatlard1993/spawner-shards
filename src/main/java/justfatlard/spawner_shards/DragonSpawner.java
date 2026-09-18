@@ -27,6 +27,9 @@ public final class DragonSpawner {
 		if (spawned.getType() != EntityTypes.ENDER_DRAGON) return;
 		if (!world.getBlockState(pos).is(Blocks.SPAWNER)) return;
 
+		// Before the blast, while there is still somebody standing near enough to be told.
+		Awards.dragonSpent(world, pos);
+
 		// Gone before the blast, so the spawner cannot come back as shards: the point is that it
 		// was spent, and an explosion that drops its own materials has not spent anything.
 		world.removeBlock(pos, false);
