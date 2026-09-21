@@ -1,0 +1,13 @@
+{
+  "overview": [
+    "A spawner becomes a thing you can take with you, in pieces. Break one for shards, and nine shards build it back."
+  ],
+  "versions": {
+    "1.0.1": [
+      "An advancement for spending a rebuilt spawner on a dragon, given to whoever is standing nearest as the cage goes."
+    ],
+    "1.0.0": [
+      "Spawners break into shards, one or two with any pickaxe and more with Silk Touch or Fortune, and nine shards fill a table to make one back. A crafted spawner starts blank until a mob head tells it what to spawn, and a dragon head buys one dragon: the spawner is spent the moment it fires."
+    ]
+  }
+}
