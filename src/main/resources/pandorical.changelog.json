@@ -4,10 +4,13 @@
   ],
   "versions": {
     "1.0.1": [
-      "An advancement for spending a rebuilt spawner on a dragon, given to whoever is standing nearest as the cage goes."
+      "An advancement for spending a rebuilt spawner on a dragon, given to whoever stands nearest."
     ],
     "1.0.0": [
-      "Spawners break into shards, one or two with any pickaxe and more with Silk Touch or Fortune, and nine shards fill a table to make one back. A crafted spawner starts blank until a mob head tells it what to spawn, and a dragon head buys one dragon: the spawner is spent the moment it fires."
+      "Spawners break into shards: one or two with any pickaxe, more with Silk Touch or Fortune.",
+      "Nine shards fill a table to make one back.",
+      "A crafted spawner starts blank until a mob head tells it what to spawn.",
+      "A dragon head buys one dragon: the spawner is spent the moment it fires."
     ]
   }
 }
