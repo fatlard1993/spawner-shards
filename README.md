@@ -2,6 +2,8 @@
 
 A Fabric mod that makes a spawner a thing you can take with you, in pieces.
 
+![Nine spawner shards filling a crafting table, and the spawner they make](screenshots/shards-to-spawner.png)
+
 ## Features
 
 - **Spawners break into shards**: 1-2 with any pickaxe, 2-4 with Silk Touch, and Fortune adds up to its level on top of the plain roll (1-3, 1-4, 1-5). Nine shards build a spawner back, so careless mining loses ground.
