@@ -3,6 +3,9 @@
     "A spawner becomes a thing you can take with you, in pieces. Break one for shards, and nine shards build it back."
   ],
   "versions": {
+    "1.0.2": [
+      "Release notes rewritten to read plainly; nothing in play changes."
+    ],
     "1.0.1": [
       "An advancement for spending a rebuilt spawner on a dragon, given to whoever stands nearest."
     ],
